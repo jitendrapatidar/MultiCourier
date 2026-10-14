@@ -1,11 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "UbjnaGgk9qE=",
+  "dgSpecHash": "KXTH7bP0urI=",
   "success": true,
   "projectFilePath": "I:\\TEST2026\\MultiCourier\\src\\MultiCourie.Application\\MultiCourie.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.13\\microsoft.extensions.dependencyinjection.abstractions.10.0.13.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "MultiCourie.Application depends on FluentValidation.DependencyInjectionExtensions (>= 11.3.1) but FluentValidation.DependencyInjectionExtensions 11.3.1 was not found. FluentValidation.DependencyInjectionExtensions 11.4.0 was resolved instead.",
+      "projectPath": "I:\\TEST2026\\MultiCourier\\src\\MultiCourie.Application\\MultiCourie.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "I:\\TEST2026\\MultiCourier\\src\\MultiCourie.Application\\MultiCourie.Application.csproj",
+      "libraryId": "FluentValidation.DependencyInjectionExtensions",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

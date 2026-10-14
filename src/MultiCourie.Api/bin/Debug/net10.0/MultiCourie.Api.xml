@@ -45,6 +45,74 @@
             <param name="cancellationToken"></param>
             <returns></returns>
         </member>
+        <member name="T:MultiCourie.Api.Middleware.ExceptionHandlingMiddleware">
+            <summary>
+            ExceptionHandlingMiddleware
+            </summary>
+        </member>
+        <member name="M:MultiCourie.Api.Middleware.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{MultiCourie.Api.Middleware.ExceptionHandlingMiddleware})">
+            <summary>
+            ExceptionHandlingMiddleware
+            </summary>
+            <param name="next"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:MultiCourie.Api.Middleware.ExceptionHandlingMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,MultiCourie.Application.Couriers.CourierPartnerResolver)">
+            <summary>
+            InvokeAsync
+            </summary>
+            <param name="context"></param>
+            <param name="courierResolver"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MultiCourie.Api.Middleware.RequestIdMiddleware">
+             <summary>
+            RequestIdMiddleware
+             </summary>
+        </member>
+        <member name="M:MultiCourie.Api.Middleware.RequestIdMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            RequestIdMiddleware
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:MultiCourie.Api.Middleware.RequestIdMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            InvokeAsync
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MultiCourie.Api.Models.ApiErrorResponse">
+            <summary>
+            ApiErrorResponse
+            </summary>
+        </member>
+        <member name="T:MultiCourie.Api.Models.ApiErrorBody">
+            <summary>
+            ApiErrorBody
+            </summary>
+        </member>
+        <member name="T:MultiCourie.Api.Models.FieldErrorDetail">
+            <summary>
+            FieldErrorDetail
+            </summary>
+            <param name="Field"></param>
+            <param name="Message"></param>
+        </member>
+        <member name="M:MultiCourie.Api.Models.FieldErrorDetail.#ctor(System.String,System.String)">
+            <summary>
+            FieldErrorDetail
+            </summary>
+            <param name="Field"></param>
+            <param name="Message"></param>
+        </member>
+        <member name="P:MultiCourie.Api.Models.FieldErrorDetail.Field">
+            <summary></summary>
+        </member>
+        <member name="P:MultiCourie.Api.Models.FieldErrorDetail.Message">
+            <summary></summary>
+        </member>
         <member name="T:Program">
             <summary>
             Auto-generated public partial Program class for top-level statement apps.
