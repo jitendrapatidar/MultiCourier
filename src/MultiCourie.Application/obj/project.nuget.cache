@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UbjnaGgk9qE=",
+  "success": true,
+  "projectFilePath": "I:\\TEST2026\\MultiCourier\\src\\MultiCourie.Application\\MultiCourie.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.13\\microsoft.extensions.dependencyinjection.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MultiCourie.Api/MultiCourie.Api.csproj" />
+    <Project Path="src/MultiCourie.Application/MultiCourie.Application.csproj" />
+    <Project Path="src/MultiCourie.Domain/MultiCourie.Domain.csproj" />
+    <Project Path="src/MultiCourie.Infrastructure/MultiCourie.Infrastructure.csproj" />
+  </Folder>
+</Solution>

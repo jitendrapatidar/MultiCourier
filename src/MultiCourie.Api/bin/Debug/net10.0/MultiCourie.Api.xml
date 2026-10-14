@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultiCourie.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MultiCourie.Api.Controllers.OrdersController.CreateOrder(MultiCourie.Application.Orders.Dtos.CreateOrderRequestDto,System.Threading.CancellationToken)">
+            <summary>
+            CreateOrder
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultiCourie.Api.Controllers.OrdersController.TrackOrder(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Track Order
+            </summary>
+            <param name="orderId"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultiCourie.Api.Controllers.OrdersController.CancelOrder(System.String,MultiCourie.Application.Orders.Dtos.CancelOrderRequestDto,System.Threading.CancellationToken)">
+            <summary>
+            Cancel Order 
+            </summary>
+            <param name="orderId"></param>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultiCourie.Api.Controllers.OrdersController.BulkCreate(MultiCourie.Application.Orders.Dtos.BulkCreateOrdersRequestDto,System.Threading.CancellationToken)">
+            <summary>
+            Bulk Create Orders
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultiCourie.Api.Controllers.OrdersController.GetBulkStatus(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            get Bulk Status
+            </summary>
+            <param name="batchId"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>
